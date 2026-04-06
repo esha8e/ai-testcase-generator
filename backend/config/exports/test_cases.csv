@@ -1,0 +1,13 @@
+id,type,priority,test_case,expected_result
+TC_001,Positive,Medium,Verify user can login with valid data,Login should be successful
+TC_002,Negative,Medium,Verify login fails with invalid input,Appropriate error message should be shown
+TC_003,Validation,Medium,Verify login fails when mandatory fields are empty,Validation messages should be displayed
+TC_004,Validation,Low,Verify validation rules for password during login,Password should be validated correctly
+TC_005,Validation,Low,Verify validation rules for user during login,User should be validated correctly
+TC_006,Validation,Low,Verify validation rules for username during login,Username should be validated correctly
+TC_007,Positive,Low,Verify user can use with valid data,Use should be successful
+TC_008,Negative,Low,Verify use fails with invalid input,Appropriate error message should be shown
+TC_009,Validation,Low,Verify use fails when mandatory fields are empty,Validation messages should be displayed
+TC_010,Validation,Low,Verify validation rules for password during use,Password should be validated correctly
+TC_011,Validation,Low,Verify validation rules for user during use,User should be validated correctly
+TC_012,Validation,Low,Verify validation rules for username during use,Username should be validated correctly
